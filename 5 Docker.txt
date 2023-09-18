@@ -701,6 +701,7 @@ docker swarm init
 copy token to worker nodes
 docker node ls
 
+Note: Make sure you allow all traffic in security group.
 
 SERVICES:
 to copy the container to worker nodes we need to create services.

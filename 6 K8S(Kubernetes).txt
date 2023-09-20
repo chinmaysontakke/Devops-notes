@@ -178,14 +178,14 @@ spec:
       - name: cont1
         image: nginx
 
-
-To list rs		:kubectl get rs/replicaset
-To show addtional info	:kubectl get rs -o wide
-To show complete info	:kubectl describe rs name-of-rs
-To delete the rs	:kubectl delete rs name-of-rs
-to get lables of pods 	: kubectl get pods -l app=swiggy
-TO scale rs		: kubectl scale rs/swiggy-rs --replicas=10 (LIFO)
-to get/check API version : kubectl api-resources
+to create pod             :kubectl create -f replicaset.yml 
+To list rs	              	:kubectl get rs/replicaset
+To show addtional info	   :kubectl get rs -o wide
+To show complete info	    :kubectl describe rs name-of-rs
+To delete the rs	         :kubectl delete rs name-of-rs
+to get lables of pods    	: kubectl get pods -l app=swiggy
+TO scale rs	             	: kubectl scale rs/swiggy-rs --replicas=10 (LIFO)
+to get/check API version  : kubectl api-resources
 
 DRAWBACKS:
 1. we cant rollin and rollout, we cant update the application in rs(replicaset).

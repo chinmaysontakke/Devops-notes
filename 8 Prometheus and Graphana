@@ -25,6 +25,7 @@ It is a popular choice for visualizing time series data, and it integrates with 
 A user-friendly interface that allows you to create and customize dashboards with panels that display your data in a variety of formats, including graphs, gauges, and tables. You can also use Grafana to set up alerts that trigger notifications when certain conditions are met.
 Grafana has a rich ecosystem of plugins and integrations that extend its functionality. For example, you can use Grafana to integrate with other tools and services, such as Slack or PagerDuty, to receive alerts and notifications.
  Grafana is a powerful tool for visualizing and monitoring your data and metrics, and it is widely used in a variety of industries and contexts.
+Dashboard ID : 1860
 
 CONNECTION:
 SETUP BOTH PROMETHEUS & GRAFAN FROM BELOW LINK
